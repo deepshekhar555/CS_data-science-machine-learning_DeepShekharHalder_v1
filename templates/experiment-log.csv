@@ -1,0 +1,4 @@
+run,features used,model,validation MAE,beats baseline,notes
+baseline-A,training mean,naive,23.81,n/a,Forecast every validation day with the mean training demand.
+baseline-B,previous-day demand,naive,12.33,n/a,Forecast each day from the immediate prior day's observed demand.
+candidate-linear,weekday + seasonal terms + lagged demand and rain,LinearRegression,7.60,Yes,Uses only information available before the day begins.

@@ -1,0 +1,4 @@
+split,first_day,last_day,use
+train,1,120,fit
+validation,121,150,compare models
+test,151,180,spend once at the very end

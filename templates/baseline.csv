@@ -1,0 +1,3 @@
+baseline,description,validation MAE
+A: training mean,Forecast every validation day with the mean demand from train days 1-120.,23.81
+B: previous day,Forecast each validation day using the immediately previous day's observed demand.,12.33
